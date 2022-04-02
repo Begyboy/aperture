@@ -20,6 +20,10 @@
     --black: #181818;
 }
 
+
+/* ************************************* */
+
+/* Header Start */
 .header__nav {
     background: var(--black);
 }
@@ -95,26 +99,33 @@
 }
 
 .header__content {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-blend-mode: normal;
-    background-image: url(../img/header__content.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #050827;
-    background-attachment: fixed;
+    position: relative;
+  height: 722px;
+  background: url("../img/header__content.png") no-repeat scroll center;
+  background-size: cover;
+  text-align: center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: background-image 0.4s;
+  -moz-transition: background-image 0.4s;
+  -ms-transition: background-image 0.4s;
+  -o-transition: background-image 0.4s;
+  transition: background-image 0.4s;
+  overflow: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
+
 
 
 .header__content-item {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
     height: 716px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .header__content-info {
@@ -547,7 +558,7 @@
 
 .footer__start {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     padding-bottom: 36px;
 }
 
@@ -609,7 +620,7 @@
 }
 
 .solid {
-    border: 2px solid white ;
+    border: 2px solid white;
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
@@ -760,23 +771,23 @@ input:focus {
 
     .img__content-icons {
         justify-content: center;
-}
+    }
 
-.clients__content {
-    gap: 50px;
-}
+    .clients__content {
+        gap: 50px;
+    }
 
-.footer__start {
-    justify-content: space-evenly;
-}
+    .footer__start {
+        justify-content: space-evenly;
+    }
 
-.footer__center {
-    justify-content: space-evenly;
-}
+    .footer__center {
+        justify-content: space-evenly;
+    }
 
-.footer__end {
-    justify-content: space-evenly;
-}
+    .footer__end {
+        justify-content: space-evenly;
+    }
 }
 
 @media (max-width: 992px) {
@@ -833,5 +844,3 @@ input:focus {
 }
 
 /* Media End */
-
-
