@@ -95,11 +95,20 @@
 }
 
 .header__content {
-    background: url(../img/header__content.png)no-repeat center center /cover;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-blend-mode: normal;
+    background-image: url(../img/header__content.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #050827;
     background-attachment: fixed;
-    padding-bottom: 71px;
-
 }
+
 
 .header__content-item {
     display: flex;
@@ -214,7 +223,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: url(../img/do__block\ 1.png)no-repeat center center /cover;
+    background: url(../img/do__block\ 1.png) no-repeat center center /cover;
     justify-content: flex-end;
     border-radius: 2px;
 }
@@ -224,7 +233,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: url(../img/do__block\ 2.png)no-repeat center center /cover;
+    background: url(../img/do__block\ 2.png) no-repeat center center /cover;
     justify-content: flex-end;
     border-radius: 2px;
 }
@@ -234,7 +243,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: url(../img/do__block\ 3.png)no-repeat center center /cover;
+    background: url(../img/do__block\ 3.png) no-repeat center center /cover;
     justify-content: flex-end;
     border-radius: 2px;
 }
@@ -244,7 +253,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: url(../img/do__block\ 4.png)no-repeat center center /cover;
+    background: url(../img/do__block\ 4.png) no-repeat center center /cover;
     justify-content: flex-end;
     border-radius: 2px;
 }
@@ -296,7 +305,7 @@
 }
 
 .img-mountains {
-    background: url(../img/img\ 1.png)no-repeat center center /cover;
+    background: url(../img/img\ 1.png) no-repeat center center /cover;
 }
 
 .img__content {
@@ -429,7 +438,7 @@
 }
 
 .img-list {
-    background: url(../img/img\ 2.png)no-repeat center center /cover;
+    background: url(../img/img\ 2.png) no-repeat center center /cover;
 }
 
 .clients {
@@ -468,7 +477,7 @@
 }
 
 .img-mountain {
-    background: url(../img/mountain.png)no-repeat center center /cover;
+    background: url(../img/mountain.png) no-repeat center center /cover;
 }
 
 .need {
